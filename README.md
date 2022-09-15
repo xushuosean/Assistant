@@ -1,33 +1,23 @@
 # Assistant
 
+before
 
+安装meilisearch
 
-## QuickStart
+使用docker安装
 
-<!-- add docs here for user -->
+# Fetch the latest version of Meilisearch image from DockerHub
+docker pull getmeili/meilisearch:v0.28
 
-see [egg docs][egg] for more detail.
+# Launch Meilisearch in development mode with a master key
+docker run --rm \
+    -p 7700:7700 \
+    -e MEILI_MASTER_KEY='MASTER_KEY'\
+    -v $(pwd)/meili_data:/meili_data \
+    getmeili/meilisearch:v0.28 \
+    meilisearch --env="development"
+ 
 
-### Development
+1. npm i
+2. npm dev
 
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
