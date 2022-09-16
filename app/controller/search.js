@@ -12,10 +12,23 @@ class SearchController extends Controller {
 
   async data() {
     const { ctx } = this;
-    const res = await this.app.data.index('datas').search(ctx.query.wd)
+    const word = ctx.query.wd
+    if (word !== '') {
+      const res = await this.app.data.index('datas').search(ctx.query.wd)
+      res.hits.forEach(item => {
+        item.content = {
+          type: item.contentType,
+          content: {
+            cellId: item.id
+          }
+        }
+      })
 
-    res.group = _.groupBy(res.hits, (item) => item.group)
-    ctx.body = res;
+      res.group = _.groupBy(res.hits, (item) => item.group)
+      ctx.body = res;
+    } else {
+      ctx.body = { hits: [] }
+    }
   }
 }
 
