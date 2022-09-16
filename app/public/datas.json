@@ -58,5 +58,187 @@
     "group": "none",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16"
+  },
+  {
+    "id": "207616c7-f4cc-417e-b2cc-fe17488fbe5b",
+    "title": "全选",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "全选",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+C"
+  },
+  {
+    "id": "11acd587-8373-45cf-a0fc-4969f85542ff",
+    "title": "撤销",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "撤销",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+Z"
+  },
+  {
+    "id": "ade670f6-178e-4c43-965b-d48221ecd461",
+    "title": "恢复",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "恢复",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+Y"
+  },
+  {
+    "id": "0e0acd7d-5a7a-4a02-a666-2f5808cd2ee4",
+    "title": "保存",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "保存",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+S"
+  },
+  {
+    "id": "69c85bd6-e50d-4adf-9912-889abfd9feaf",
+    "title": "完成/打开",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "完成/打开",
+      "快捷键"
+    ],
+    "keyCode": "Enter"
+  },
+  {
+    "id": "20293fdb-4cc2-4873-a81a-d866900d2ae1",
+    "title": "重命名",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "重命名",
+      "快捷键"
+    ],
+    "keyCode": "F2"
+  },
+  {
+    "id": "53cab926-1ca8-4e9e-8e97-45ebad9d6266",
+    "title": "从模型删除",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "从模型删除",
+      "快捷键"
+    ],
+    "keyCode": "Shift+Delete"
+  },
+  {
+    "id": "2bd3c2e6-69cc-43be-8f06-02c2accbeede",
+    "title": "复制",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "复制",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+C"
+  },
+  {
+    "id": "e2c49cf1-2be7-45f3-b04c-9c0d0d089ee5",
+    "title": "粘贴",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "粘贴",
+      "快捷键"
+    ],
+    "keyCode": "Ctrl+V"
+  },
+  {
+    "id": "ae63127e-622a-4f47-9064-893e6fde0d00",
+    "title": "上移1px",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "上移1px",
+      "快捷键"
+    ],
+    "keyCode": "↑"
+  },
+  {
+    "id": "f2662558-843a-4dc2-9355-40cf8e3ebcf4",
+    "title": "下移1px",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "下移1px",
+      "快捷键"
+    ],
+    "keyCode": "↓"
+  },
+  {
+    "id": "eccb84c8-299a-4f8f-9090-96a89f559df2",
+    "title": "左移1px",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "左移1px",
+      "快捷键"
+    ],
+    "keyCode": "←"
+  },
+  {
+    "id": "c2388f99-414c-4551-8b10-c88dc1aa0481",
+    "title": "右移1px",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "右移1px",
+      "快捷键"
+    ],
+    "keyCode": "→"
   }
 ]

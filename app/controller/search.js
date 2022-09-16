@@ -14,7 +14,8 @@ class SearchController extends Controller {
     const { ctx } = this;
     const word = ctx.query.wd
     if (word !== '') {
-      const res = await this.app.data.index('datas').search(ctx.query.wd)
+      const res = await this.app.data.index('datas')
+        .search(ctx.query.wd)
       res.hits.forEach(item => {
         item.content = {
           type: item.contentType,
