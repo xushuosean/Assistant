@@ -10,7 +10,7 @@
     "eidtTime": "2022/09/16",
     "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "1",
+    "ownerDiagramId": "1",
     "value": {
       "id": "142a0576-45bd-4f85-ae4a-6de443435cb1",
       "x": 140,
@@ -31,7 +31,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是使命任务图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "1",
+    "ownerDiagramId": "1",
     "value": {
       "id": "bac0b16e-4d1a-489b-8a27-438f409ea6a2",
       "x": 40,
@@ -52,7 +52,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "1",
+    "ownerDiagramId": "1",
     "value": {
       "id": "d7a021cf-821d-4162-bd39-5a7932c20562",
       "source": "142a0576-45bd-4f85-ae4a-6de443435cb1",
@@ -70,7 +70,7 @@
     "eidtTime": "2022/09/16",
     "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "2",
+    "ownerDiagramId": "2",
     "value": {
       "id": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
       "x": 140,
@@ -91,7 +91,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是使命任务图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "2",
+    "ownerDiagramId": "2",
     "value": {
       "id": "0a432281-02f7-427e-958d-e80c7c9429cd",
       "x": 140,
@@ -112,7 +112,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "2",
+    "ownerDiagramId": "2",
     "value": {
       "id": "3a3c9216-378b-49de-a4f9-6803cf168eb3",
       "source": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
@@ -130,7 +130,7 @@
     "eidtTime": "2022/09/16",
     "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "3",
+    "ownerDiagramId": "3",
     "value": {
       "id": "d9f94695-adba-4655-a8fe-4283871d27a1",
       "x": 40,
@@ -151,7 +151,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是使命任务图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "3",
+    "ownerDiagramId": "3",
     "value": {
       "id": "398e0c92-2515-42aa-9aa4-ec6d679f33a5",
       "x": 40,
@@ -172,7 +172,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "3",
+    "ownerDiagramId": "3",
     "value": {
       "id": "3e738229-668c-4f65-a721-34a69616c6b3",
       "source": "d9f94695-adba-4655-a8fe-4283871d27a1",
@@ -190,7 +190,7 @@
     "eidtTime": "2022/09/16",
     "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "4",
+    "ownerDiagramId": "4",
     "value": {
       "id": "f6d25121-f062-499c-bc02-1ce533e0520b",
       "x": 40,
@@ -211,7 +211,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是使命任务图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "4",
+    "ownerDiagramId": "4",
     "value": {
       "id": "eed8d38b-eb84-49f1-9f4b-705678a20e8b",
       "x": 40,
@@ -232,7 +232,7 @@
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
     "canCreate": "OV-1_高层作战概念视图",
-    "owerDiagramId": "4",
+    "ownerDiagramId": "4",
     "value": {
       "id": "8ac33417-467d-441d-8b1c-99bee90c3c2f",
       "source": "f6d25121-f062-499c-bc02-1ce533e0520b",
