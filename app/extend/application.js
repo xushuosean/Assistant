@@ -14,13 +14,6 @@ module.exports = {
   get data() {
     const dataClient = new MeiliSearch({ host: 'http://localhost:7700', apiKey: 'MASTER_KEY' })
     dataClient.index('datas').addDocuments(datas)
-    dataClient.index('datas').updateSettings({
-      searchableAttributes: [
-        'title',
-        'desc',
-        'keyword'
-      ]
-    })
 
     return dataClient
   }

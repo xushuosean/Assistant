@@ -1,7 +1,7 @@
 [
   {
-    "id": "2",
-    "title": "作战单位",
+    "id": "142a0576-45bd-4f85-ae4a-6de443435cb1",
+    "title": "作战单位1",
     "group": "none",
     "action": "1",
     "type": "cell",
@@ -9,7 +9,235 @@
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16",
     "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
-    "canCreate": "OV-1_高层作战概念视图"
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "1",
+    "value": {
+      "id": "142a0576-45bd-4f85-ae4a-6de443435cb1",
+      "x": 140,
+      "y": 240,
+      "width": 80,
+      "height": 40,
+      "label": "作战单位1"
+    }
+  },
+  {
+    "id": "bac0b16e-4d1a-489b-8a27-438f409ea6a2",
+    "title": "使命任务1",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是使命任务图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "1",
+    "value": {
+      "id": "bac0b16e-4d1a-489b-8a27-438f409ea6a2",
+      "x": 40,
+      "y": 40,
+      "width": 80,
+      "height": 40,
+      "label": "使命任务1"
+    }
+  },
+  {
+    "id": "d7a021cf-821d-4162-bd39-5a7932c20562",
+    "title": "依赖关系线1",
+    "group": "none",
+    "action": "1",
+    "type": "line",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是关系线图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "1",
+    "value": {
+      "id": "d7a021cf-821d-4162-bd39-5a7932c20562",
+      "source": "142a0576-45bd-4f85-ae4a-6de443435cb1",
+      "target": "bac0b16e-4d1a-489b-8a27-438f409ea6a2"
+    }
+  },
+  {
+    "id": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
+    "title": "作战单位2",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "2",
+    "value": {
+      "id": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
+      "x": 140,
+      "y": 240,
+      "width": 80,
+      "height": 40,
+      "label": "作战单位2"
+    }
+  },
+  {
+    "id": "0a432281-02f7-427e-958d-e80c7c9429cd",
+    "title": "使命任务2",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是使命任务图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "2",
+    "value": {
+      "id": "0a432281-02f7-427e-958d-e80c7c9429cd",
+      "x": 140,
+      "y": 40,
+      "width": 80,
+      "height": 40,
+      "label": "使命任务2"
+    }
+  },
+  {
+    "id": "3a3c9216-378b-49de-a4f9-6803cf168eb3",
+    "title": "依赖关系线2",
+    "group": "none",
+    "action": "1",
+    "type": "line",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是关系线图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "2",
+    "value": {
+      "id": "3a3c9216-378b-49de-a4f9-6803cf168eb3",
+      "source": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
+      "target": "0a432281-02f7-427e-958d-e80c7c9429cd"
+    }
+  },
+  {
+    "id": "d9f94695-adba-4655-a8fe-4283871d27a1",
+    "title": "作战单位3",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "3",
+    "value": {
+      "id": "d9f94695-adba-4655-a8fe-4283871d27a1",
+      "x": 40,
+      "y": 240,
+      "width": 80,
+      "height": 40,
+      "label": "作战单位3"
+    }
+  },
+  {
+    "id": "398e0c92-2515-42aa-9aa4-ec6d679f33a5",
+    "title": "使命任务3",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是使命任务图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "3",
+    "value": {
+      "id": "398e0c92-2515-42aa-9aa4-ec6d679f33a5",
+      "x": 40,
+      "y": 40,
+      "width": 80,
+      "height": 40,
+      "label": "使命任务3"
+    }
+  },
+  {
+    "id": "3e738229-668c-4f65-a721-34a69616c6b3",
+    "title": "依赖关系线3",
+    "group": "none",
+    "action": "1",
+    "type": "line",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是关系线图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "3",
+    "value": {
+      "id": "3e738229-668c-4f65-a721-34a69616c6b3",
+      "source": "d9f94695-adba-4655-a8fe-4283871d27a1",
+      "target": "398e0c92-2515-42aa-9aa4-ec6d679f33a5"
+    }
+  },
+  {
+    "id": "f6d25121-f062-499c-bc02-1ce533e0520b",
+    "title": "作战单位4",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "执行活动并提供能力的任何实体，包括人、自主系统和任何人和自主系统的集合。",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "4",
+    "value": {
+      "id": "f6d25121-f062-499c-bc02-1ce533e0520b",
+      "x": 40,
+      "y": 140,
+      "width": 80,
+      "height": 40,
+      "label": "作战单位4"
+    }
+  },
+  {
+    "id": "eed8d38b-eb84-49f1-9f4b-705678a20e8b",
+    "title": "使命任务4",
+    "group": "none",
+    "action": "1",
+    "type": "cell",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是使命任务图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "4",
+    "value": {
+      "id": "eed8d38b-eb84-49f1-9f4b-705678a20e8b",
+      "x": 40,
+      "y": 40,
+      "width": 80,
+      "height": 40,
+      "label": "使命任务4"
+    }
+  },
+  {
+    "id": "8ac33417-467d-441d-8b1c-99bee90c3c2f",
+    "title": "依赖关系线1",
+    "group": "none",
+    "action": "1",
+    "type": "line",
+    "contentType": "1",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16",
+    "desc": "这里是关系线图元的描述信息",
+    "canCreate": "OV-1_高层作战概念视图",
+    "owerDiagramId": "4",
+    "value": {
+      "id": "8ac33417-467d-441d-8b1c-99bee90c3c2f",
+      "source": "f6d25121-f062-499c-bc02-1ce533e0520b",
+      "target": "eed8d38b-eb84-49f1-9f4b-705678a20e8b"
+    }
   },
   {
     "id": "3",
