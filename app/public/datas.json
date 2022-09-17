@@ -240,5 +240,18 @@
       "快捷键"
     ],
     "keyCode": "→"
+  },
+  {
+    "id": "1999a0ef-8fd4-4fc1-a03d-ab09df067d56",
+    "title": "快捷键",
+    "desc": "可在结构性视图中选中所有的图元",
+    "type": "shortcut",
+    "action": "1",
+    "contentType": "5",
+    "group": "shortcut",
+    "keyword": [
+      "快捷键"
+    ],
+    "keyCode": "点按Enter"
   }
 ]
