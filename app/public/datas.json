@@ -47,7 +47,7 @@
     "group": "none",
     "action": "1",
     "type": "line",
-    "contentType": "1",
+    "contentType": "4",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
@@ -107,7 +107,7 @@
     "group": "none",
     "action": "1",
     "type": "line",
-    "contentType": "1",
+    "contentType": "4",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
@@ -167,7 +167,7 @@
     "group": "none",
     "action": "1",
     "type": "line",
-    "contentType": "1",
+    "contentType": "4",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
@@ -223,11 +223,11 @@
   },
   {
     "id": "8ac33417-467d-441d-8b1c-99bee90c3c2f",
-    "title": "依赖关系线1",
+    "title": "依赖关系线4",
     "group": "none",
     "action": "1",
     "type": "line",
-    "contentType": "1",
+    "contentType": "4",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16",
     "desc": "这里是关系线图元的描述信息",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "id": "3",
+    "id": "4cad2a4b-2442-4ada-35c1-1426b0bae004",
     "title": "查找替换",
     "type": "find",
     "action": "9",
@@ -248,27 +248,50 @@
     "group": "related"
   },
   {
-    "id": "4",
+    "id": "2785feaa-9c14-7812-f3f8-515e30d77b3e",
+    "title": "查看协同人员",
+    "type": "collaborate",
+    "action": "6",
+    "contentType": "2",
+    "group": "related"
+  },
+  {
+    "id": "148d5eb4-6ea3-e414-3510-23621e7abf59",
+    "title": "创建版本",
+    "type": "createVersion",
+    "action": "5",
+    "contentType": "5",
+    "group": "related",
+    "keyCode": "点按Enter来创建版本"
+  },
+  {
+    "id": "55501f07-1227-a0f8-6804-cc6a90e7d0d7",
     "title": "作战单位6",
     "type": "cell",
     "action": "3",
     "contentType": "0",
     "group": "knowledge",
-    "createTime": "2022/09/15"
+    "createTime": "2022/09/15",
+    "keyword": [
+      "知识库"
+    ]
   },
   {
-    "id": "5",
+    "id": "3d959743-26ae-0ab3-8ba4-d7dcc8c7f10d",
     "title": "作战单位7",
     "type": "cell",
     "action": "3",
     "contentType": "0",
     "group": "knowledge",
-    "createTime": "2022/09/15"
+    "createTime": "2022/09/15",
+    "keyword": [
+      "知识库"
+    ]
   },
   {
-    "id": "6",
+    "id": "1",
     "title": "ov-1_高层zz概念视图1",
-    "desc": "只支持创建1张，描述作战概念中使命任务和作战单位组成。",
+    "desc": "这是ov-1_高层zz概念视图的描述",
     "type": "diagram",
     "action": "0",
     "contentType": "3",
@@ -277,12 +300,34 @@
     "eidtTime": "2022/09/16"
   },
   {
-    "id": "7",
-    "title": "作战单位连接线",
-    "desc": "连接不同的作战单位。<br />from：作战单位<br />to：作战单位",
-    "type": "line",
-    "action": "1",
-    "contentType": "4",
+    "id": "2",
+    "title": "ov-1_高层图形zz概念视图1",
+    "desc": "这是ov-1_高层图形zz概念视图的描述",
+    "type": "diagram",
+    "action": "0",
+    "contentType": "3",
+    "group": "none",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16"
+  },
+  {
+    "id": "3",
+    "title": "ov-2_zz单位关系视图1",
+    "desc": "这是ov-2_zz单位关系视图的描述",
+    "type": "diagram",
+    "action": "0",
+    "contentType": "3",
+    "group": "none",
+    "createTime": "2022/09/15",
+    "eidtTime": "2022/09/16"
+  },
+  {
+    "id": "4",
+    "title": "ov-2_zz部队资源流视图1",
+    "desc": "这是ov-2_zz部队资源流视图的描述",
+    "type": "diagram",
+    "action": "0",
+    "contentType": "3",
     "group": "none",
     "createTime": "2022/09/15",
     "eidtTime": "2022/09/16"

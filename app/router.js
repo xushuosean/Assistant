@@ -10,4 +10,8 @@ module.exports = app => {
   router.get('/search', controller.search.data)
 
   router.get('/cellline', controller.search.getCellAndLine)
+
+  router.get('/getcell', controller.search.getCell)
+
+  router.get('/diagram', controller.search.getDiagramCell)
 };
