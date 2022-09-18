@@ -14,7 +14,7 @@
     "value": {
       "id": "142a0576-45bd-4f85-ae4a-6de443435cb1",
       "x": 140,
-      "y": 240,
+      "y": 200,
       "width": 80,
       "height": 40,
       "label": "作战单位1"
@@ -35,7 +35,7 @@
     "value": {
       "id": "bac0b16e-4d1a-489b-8a27-438f409ea6a2",
       "x": 40,
-      "y": 40,
+      "y": 80,
       "width": 80,
       "height": 40,
       "label": "使命任务1"
@@ -73,8 +73,8 @@
     "ownerDiagramId": "2",
     "value": {
       "id": "2ce6d195-81df-45a1-83da-0f5d569c2d4b",
-      "x": 140,
-      "y": 240,
+      "x": 150,
+      "y": 200,
       "width": 80,
       "height": 40,
       "label": "作战单位2"
@@ -94,8 +94,8 @@
     "ownerDiagramId": "2",
     "value": {
       "id": "0a432281-02f7-427e-958d-e80c7c9429cd",
-      "x": 140,
-      "y": 40,
+      "x": 130,
+      "y": 80,
       "width": 80,
       "height": 40,
       "label": "使命任务2"
@@ -134,7 +134,7 @@
     "value": {
       "id": "d9f94695-adba-4655-a8fe-4283871d27a1",
       "x": 40,
-      "y": 240,
+      "y": 20,
       "width": 80,
       "height": 40,
       "label": "作战单位3"
@@ -155,7 +155,7 @@
     "value": {
       "id": "398e0c92-2515-42aa-9aa4-ec6d679f33a5",
       "x": 40,
-      "y": 40,
+      "y": 90,
       "width": 80,
       "height": 40,
       "label": "使命任务3"
@@ -244,15 +244,16 @@
     "title": "查找替换",
     "type": "find",
     "action": "9",
-    "contentType": "2",
-    "group": "related"
+    "contentType": "5",
+    "group": "related",
+    "keyCode": "点按Enter来打开"
   },
   {
     "id": "2785feaa-9c14-7812-f3f8-515e30d77b3e",
     "title": "查看协同人员",
     "type": "collaborate",
     "action": "6",
-    "contentType": "2",
+    "contentType": "6",
     "group": "related"
   },
   {
@@ -344,7 +345,7 @@
       "全选",
       "快捷键"
     ],
-    "keyCode": "Ctrl+C"
+    "keyCode": "Ctrl+A"
   },
   {
     "id": "11acd587-8373-45cf-a0fc-4969f85542ff",
